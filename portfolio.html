@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Bootstrap Basic Portfolio</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  <link rel="stylesheet" href="assets/css/style.css" media="screen">
+  
+</head>
+
+<!-- Body, Background set to an image-->
+<body style="background-image: url(assets/images/White-honeycomb-hexagon-Mirrored.jpg);">
+  
+    <!-- Nav Bar -->
+
+  <nav id="entire-navbar" class="navbar bg-white">
+    <span id="name-header" class="h4 text-white bg-info h-100">Jeremy Stone</span>
+
+    <!-- These are the nav bar links to the other pages -->
+
+    <ul id="tab-bar" class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link text-secondary border-right" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-secondary border-right" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-secondary" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container m-4">
+    <!-- There is one row with one columm. Within this column are multiple rows and columns-->
+    <div class="row">
+      <div id="content-box" class="col-11 col-xs-12 col-md-11 col-lg-10 col-xl-10 bg-white">
+        <div class="row">
+          <!-- This column contains the header -->
+          <div class="text-info col pt-3 pl-5">
+           <h4>Portfolio</h4>
+        </div>
+      </div>
+        <div class="row border-top pl-2">
+              <!-- These are columns that contain  5 pictures with text on top. 2 Pictures are in each row. -->
+              <div id="project" class="col text-info">
+                  <img height="350" width="350" src="assets/images/selfie.jpeg" alt="my selfie">
+                  <div class="text-block bg-info pt-2">
+                    <h5>
+                        Project 1
+                   </h5>
+                  </div>
+              </div>
+              <div id="project" class="col text-info">
+                  <img height="350" width="350" src="assets/images/selfie.jpeg" alt="my selfie">
+                <div class="text-block bg-info pt-2">
+                  <h5> 
+                      Project 2
+                    </h5>
+                  </div>
+              </div>
+              <div id="project" class="col text-info">
+                  <img height="350" width="350" src="assets/images/selfie.jpeg" alt="my selfie">
+                <div class="text-block bg-info pt-2">
+                  <h5>
+                        Project 3
+                      </h5>
+                    </div>
+                </div>
+                <div id="project" class="col text-info">
+                    <img height="350" width="350" src="assets/images/selfie.jpeg" alt="my selfie">
+                  <div class="text-block bg-info pt-2">
+                    <h5>
+                      Project 4
+                    </h5>
+                  </div>
+              </div>
+              <div id="project" class="col text-info">
+                  <img height="350" width="350" src="assets/images/selfie.jpeg" alt="my selfie">
+                <div class="text-block bg-info pt-2">
+                </div>
+              </div>
+          </div>
+      </div>
+   </div>
+   <!--Footer saying copyright.-->
+   <footer>
+    <!-- One box in blue -->
+    <div id="footer-bluebox" class="bg-info">
+    </div>
+    <!-- Another box that is grey -->
+    <div id="footer-greybox" class="text-center bg-secondary text-white p-4">
+        <p>&copy; Copyright</p>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+
+
+</html>

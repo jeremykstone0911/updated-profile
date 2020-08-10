@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Jeremy Stone Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" media="screen" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body
+    style="
+      background-image: url(assets/images/White-honeycomb-hexagon-Mirrored.jpg);
+    "
+  >
+    <nav id="entire-navbar" class="navbar bg-white">
+      <!-- This is my name header -->
+
+      <span id="name-header" class="h4 text-white bg-info h-100"
+        >Jeremy Stone</span
+      >
+
+      <!-- These are the navigation links to the the other pages contained in an unordered list -->
+
+      <ul id="tab-bar" class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link text-secondary border-right" href="index.html"
+            >About</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary border-right" href="portfolio.html"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="container py-0 my-5 bg-light" id="wrapper">
+      <section class="container bg-light">
+        <div class="row m-3 title">
+          <h2>About Me</h2>
+        </div>
+        <hr />
+        <section class="row">
+          <img
+            src="./assets/images/selfie.jpeg"
+            alt="selfie"
+            class="col-md-6 ml-3 mb-5 p-0 biopic"
+            style="max-width: 225px; max-height: 400px;"
+          />
+          <section class="col-md-6 p-0 ml-5" style="width: 500px;" id="blurb">
+            <p>
+              Hi my name is Jeremy!
+            </p>
+            <br />
+            <p>Things I love...</p>
+            <ul>
+              <li>Traveling to any new location</li>
+              <li>Spending time with my family</li>
+              <li>Music</li>
+              <li>My Jeep</li>
+            </ul>
+          </section>
+        </section>
+      </section>
+      <section class="container bg-light">
+        <div class="row m-3 title">
+          <h4>View My:</h4>
+        </div>
+        <div class="row">
+          <ul class="links">
+            <li>
+              <a
+                href="https://github.com/jeremykstone0911"
+                alt="GitHub link"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="www.linkedin.com/in/jeremy-stone-bb34a0126"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://stackexchange.com/users/19261482/jeremy-stone"
+                target="_blank"
+                >Stack Overflow</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="row m-3">
+          <h4 class="links">GitHub Projects:</h4>
+        </div>
+        <div class="row m-3">
+          <div class="card-deck">
+            <div class="card">
+              <img
+                src="https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg"
+                alt="weather icons"
+                class="card-img-top"
+              />
+              <div class="card-body subtitle">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="card-text">
+                  User provides city, is then given the current forecast as well
+                  as the 5-day forecast.
+                </p>
+                <p class="card-text">
+                  <a
+                    href="https://github.com/jeremykstone0911/weather-forecast"
+                    target="_blank"
+                    >View application page</a
+                  >
+                  <br />
+                  <a
+                    href="https://jeremykstone0911.github.io/weather-forecast/"
+                    target="_blank"
+                    >View repository</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="./assets/images/people-lift-a-person-2417730.jpg"
+                alt="concert image"
+                class="card-img-top"
+              />
+              <div class="card-body subtitle">
+                <h5 class="card-title">Look At What You Missed</h5>
+                <p class="card-text">
+                  Responsive application which shows you all of the live music
+                  events from a past date.
+                </p>
+                <p class="card-text">
+                  <a
+                    href="https://jeremykstone0911.github.io/Project1/"
+                    target="_blank"
+                    >View application page</a
+                  >
+                  <br />
+                  <a
+                    href="https://github.com/jeremykstone0911/Project1"
+                    target="_blank"
+                    >View repository</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body subtitle">
+                <img
+                  src="https://media1.s-nbcnews.com/i/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p_d9270c5c545b30ea094084c7f2342eb4.jpg"
+                  alt="Link to Burger app"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">Burger App</h5>
+                <p class="card-text">
+                  Heroku-deployed app enables the user to add new burgers to the
+                  left side of the page. If the user clicks the Devour It!
+                  button, the burger's devoured status changes to true and it
+                  reappears on the right side of the page. Utilizes Express,
+                  Handlebars, MySQL, and an ORM.
+                </p>
+                <p class="card-text">
+                  <a href="https://herokuapp.com/" target="_blank"
+                    >View application</a
+                  >
+                  <br />
+                  <a
+                    href="https://github.com/jeremykstone0911/burger-time"
+                    target="_blank"
+                    >View repository</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-3">
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body subtitle">
+                <img
+                  src="./assets/images/weekend-warrior-logo.png"
+                  alt=""
+                  class="card-img-top"
+                />
+                <h5 class="card-title">Weekend Warriors</h5>
+                <p class="card-text">
+                  This Heroku-deployed full-stack application is a simple
+                  tracker for weekend adventures. Users can blog about their own
+                  weekend or read all about the weekend adventures of others.
+                </p>
+                <p class="card-text">
+                  <a href="https://herokuapp.com/" target="_blank"
+                    >View application</a
+                  >
+                  <br />
+                  <a
+                    href="https://github.com/jeremykstone0911/weekend-warrior"
+                    target="_blank"
+                    >View repository</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body subtitle">
+                <img
+                  src="https://vistapointe.net/images/note-3.jpg"
+                  alt="Link to Note Taker App"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">Note Taker</h5>
+                <p class="card-text">
+                  This Heroku-deployed application enables the user to write,
+                  save, and delete notes. Application utilizes Express to give
+                  user full CRUD method capabilities, writing, reading, and
+                  deleting data to/from a JSON file.
+                </p>
+                <p class="card-text">
+                  <a href="https://herokuapp.com/" target="_blank"
+                    >View application</a
+                  >
+                  <br />
+                  <a
+                    href="https://github.com/jeremykstone0911/Note_Taker"
+                    target="_blank"
+                    >View repository</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container bg-light form" id="contact">
+        <h2 class="subtitle">Contact</h2>
+        <hr />
+        <form class="subtitle">
+          <section class="form-group">
+            <label for="exampleInputName1">Name</label>
+            <input type="name" class="form-control" id="ExampleInputName1" />
+          </section>
+          <section class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="ExampleInputEmail1" />
+          </section>
+          <section class="form-group">
+            <label for="message">Message</label>
+            <br />
+            <textarea
+              id="message"
+              class="message"
+              rows="5"
+              cols="40"
+            ></textarea>
+          </section>
+          <section class="submission">
+            <button type="button" class="btn btn-info">Submit</button>
+          </section>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Contact</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  <link rel="stylesheet" href="assets/css/style.css" media="screen">
+  
+</head>
+
+<!-- Body, Background set to an image-->
+<body style="background-image: url(assets/images/White-honeycomb-hexagon-Mirrored.jpg);">   
+  <!-- Nav Bar -->
+  <nav id="entire-navbar" class="navbar bg-white">
+    <span id="name-header" class="h4 text-white bg-info h-100">Jeremy Stone</span>
+
+    <!-- These are the nav bar links to the other pages -->
+
+    <ul id="tab-bar" class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link text-secondary border-right" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-secondary border-right" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-secondary" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+      <!-- This is the main container box. Inside it is a Contact box -->
+      <div class="container m-4">
+        <!-- There is one row with one column -->
+        <div class="row">
+            <!-- Inside this column there are two rows, each with one column -->
+            <!-- For various screen sizes different column values are applied tof it the screen appropriately -->
+          <div id="content-box" class="col-10 col-sm-12 col-md-11 col-lg-10 col-xl-10 bg-white">
+              <div class="row">
+                  <!-- In this column is the header -->
+                  <div class="col pt-3 text-info">
+                    <h4>Contact</h4>
+                  </div>
+              </div>
+
+              <div class="row p-3">
+                <!-- In this column is a form containing Name, E-mail, Message with a button to submit the details -->
+                <form class="col pt-3 border-top w-100">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary bg-info">Submit</button>
+                </form>
+          </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+</html>
